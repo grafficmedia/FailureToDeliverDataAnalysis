@@ -1,0 +1,15 @@
+{
+  "name": "failurestodeliver",
+  "version": "1.0.0",
+  "description": "Analyzing Failure to Deliver data",
+  "main": "index.js",
+  "author": "Jake Donivan",
+  "license": "MIT",
+  "scripts": {
+    "openDB": "sqlite3 FailuresToDeliver.db"
+  },
+  "dependencies": {
+    "p-map": "2.1.0",
+    "sqlite3": "^5.0.2"
+  }
+}
